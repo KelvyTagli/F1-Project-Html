@@ -1,0 +1,721 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400&display=swap');
+
+body
+{
+  margin: 0 auto;
+  min-width: 1500px;
+}
+
+/*Header*/
+.nav-Fia
+{
+  display: flex;
+  /* border: 2px solid; */
+  justify-content: space-between;
+  height: 60px;
+}
+
+.nav-Fia ul 
+{
+  display: flex;
+  /* border: 2px solid ; */
+  list-style-type: none;
+  width:170px ;
+  height: 35px;
+}
+
+.fia img 
+{
+  width: 36px;
+  height: 25px;
+  margin-top: 5px;
+  filter: opacity(30%);
+}
+
+.fia hr 
+{
+  width: 1px;
+  height: 50px;
+}
+
+.f1-f2-f3 
+{
+  margin-top: 5px;
+}
+
+.f1-f2-f3 a
+{
+  color: gray;
+  font-family: 'Titillium Web',sans-serif;
+}
+
+.f1-f2-f3 a:hover
+{
+  color: black;
+}
+
+a
+{
+  text-decoration: none;
+  color: black;
+  margin-right: 4px;
+}
+
+.nav-F1 
+{
+  width: 800px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-F1 ul
+{
+  display: flex;
+  list-style-type: none;
+  width:650px ;
+  height: 35px;
+  justify-content: space-evenly;
+}
+
+.links-global
+{
+  display: flex;
+  gap: 1cm;
+  font-size: 12px;
+  margin-top: 8px;
+  margin-right: 4px;
+  font-family: 'Titillium Web', sans-serif;
+ 
+}
+
+.links-global a:hover
+{
+  color: #f00;
+  text-decoration:underline 5px;
+  line-height: 22px;
+}
+
+.f1-tv img
+{
+  width: 105px;
+  height: 35px;
+  margin-left: 9px;
+  margin-right: 9px;
+}
+
+.git img
+{
+  width: 60px;
+  height: 50px;
+  margin-top: -8px;
+}
+
+.home-F1 
+{
+  /* border: 2px solid; */
+  display: flex;
+  justify-content: space-evenly;
+  height: 70.8px;
+  background-color: #f00;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.f1-Logo
+{
+  /* border: 2px solid ; */
+  margin-left: -14%;
+  margin-top: 20px;
+  
+}
+
+.f1-Logo img
+{
+  
+  width: 130px;
+  height: 32.5px;
+}
+
+.home-f1
+{
+  /* border: 2px solid ; */
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-left: -18%;
+  margin-top: -2px;
+  width: 900px;
+  height: 70px;
+  font-size: 18px;
+}
+
+.latest
+{
+  /* border: 2px solid ; */
+  margin-top: 4px;
+  display: flex;
+  justify-content: center;
+  width: 96px;
+  height: 70.5px;
+}
+
+.latest:hover
+{
+  background-color: black;
+}
+
+.latest a 
+{
+  filter: brightness(100);
+  margin-top: 20%;
+  color: rgb(255, 255, 255);
+}
+
+.video
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 4px;
+  width: 96px;
+  height: 70px;
+}
+
+.video:hover
+{
+  background-color: black;
+}
+
+.video a
+{
+  margin-top: 20%;
+  filter: brightness(100);
+  color: white;
+}
+
+.schedule
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 4px;
+  width: 96px;
+  height: 70px;
+}
+
+.schedule:hover
+{
+  background-color: black;
+}
+
+.schedule a
+{
+  margin-top: 20%;
+  filter: brightness(100);
+  color: white;
+}
+
+.standings
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 4px;
+  width: 96px;
+  height: 70px;
+}
+
+.standings:hover
+{
+  background-color: black;
+}
+
+.standings a
+{
+  margin-top: 20%;
+  filter: brightness(100);
+  color: white;
+}
+
+.drivers
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 4px;
+  width: 96px;
+  height: 70px;
+}
+
+.drivers:hover
+{
+  background-color: black;
+}
+
+.drivers a
+{
+  margin-top: 20%;
+  filter: brightness(100);
+  color: white;
+}
+
+.teams
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 4px;
+  width: 96px;
+  height: 70px;
+}
+
+.teams:hover
+{
+  background-color: black;
+}
+
+.teams a
+{
+  margin-top: 20%;
+  filter: brightness(100);
+  color: white;
+}
+
+.gaming
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 4px;
+  width: 96px;
+  height: 70px;
+}
+
+.gaming:hover
+{
+  background-color: black;
+}
+
+.gaming a
+{
+  margin-top: 20%;
+  filter: brightness(100);
+  color: white;
+}
+
+.liveTiming
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 4px;
+  width: 96px;
+  height: 70px;
+}
+
+.liveTiming:hover
+{
+  background-color: black;
+}
+
+.liveTiming a
+{
+  margin-top: 20%;
+  color: white;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+.inicio-F1
+{
+  border: 2px solid ;
+  display: flex;
+  background-color: #1d1e20;
+}
+
+.inicio-F1 h1
+{
+  margin-top: 2.9%;
+  margin-left: 4%;
+  font-family: 'Titillium Web',serif;
+  color: whitesmoke;
+}
+
+.history-F1
+{
+  display: flex;
+  border-top: 10px solid  #e10600;
+  border-right: 10px solid  #e10600;
+  border-bottom: 10px solid  #e10600;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  width: 900px;
+  margin-top: 4%;
+  margin-left: 1%;
+  margin-bottom: 20px;
+}
+
+.history-F1 p
+{
+  border-right: 2px solid lightgray;
+  margin-left: -21%;
+  width: 500px;
+  font-family: 'Titillium Web', sans-serif;
+  color: whitesmoke;
+}
+
+.history-F1 video
+{
+  /* border-right: 5px solid #f00; */
+  /* border-bottom: 1px solid whitesmoke; */
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 535px;
+  height: 300px;
+}
+
+.background-image
+{
+  background-image: url(https://www.formula1.com/etc/designs/fom-website/images/patterns/gray3-x1.png);
+  background-size: 50px ;
+  /* border: 3px solid black; */
+  width: 530px;
+  height: 170px;
+  margin-top: 37%;
+  margin-left: -59%;
+}
+
+#background-image
+{
+  background-image: url(https://www.formula1.com/etc/designs/fom-website/images/patterns/gray3-x1.png);
+  background-size: 50px ;
+  /* border: 3px solid black; */
+  width: 280px;
+  height: 490px;
+  margin-top: 5%;
+  margin-left: 30px;
+}
+
+.F1-screen
+{
+  display: grid;
+  font-family: 'Titillium Web', sans-serif;
+  background-color: rgba(255, 255, 255, 0.804);
+  background-image: url(https://www.formula1.com/etc/designs/fom-website/images/patterns/gray3-x1.png);
+
+}
+
+#schedule-article-container 
+{
+  border-top: 10px solid black;
+  border-right: 10px solid black;
+  border-top-right-radius: 25px;
+  background-color: white;
+  width: 1320px;
+  height: 90px;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+
+#schedule-article-container div
+{
+  width: 600px;
+  height: 90px;
+  margin-top: 3px;
+  line-height: 10px;
+}
+
+#schedule-article-container h2
+{
+  font-size: 72px;
+  line-height: 10px;
+  font-family:'Titillium Web',sans-serif ;
+  font-weight: 900;
+  margin-top: 4%;
+}
+
+#schedule-article-container p
+{
+  font-size: 18px;
+  margin-top: -30px;
+  /* border: 1px solid; */
+  width: 600px;
+}
+
+#screen-calendar
+{
+  display: flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  /* margin-right: -10px;
+  margin-left: -10px; */
+  /* border: 2px solid ; */
+  margin-left: 5%;
+  margin-bottom: 3%;
+  width: 1320px;
+  height: 2250px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+#schedule-card
+{
+  display: grid;
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
+  border-top-right-radius: 10px;
+  border-bottom: none;
+  border-left: none;
+  width: 261px;
+  height: 269px;
+  margin-top: 5%;
+  margin-right: 3.1%;
+  margin-left: 1%;
+  padding-left: 0px;
+}
+
+#schedule-card:hover
+{
+  border-color: #e10600;
+}
+
+legend
+{
+  width: 80px;
+  height: 20px;
+  color: #e10600;
+}
+
+#schedule-card div
+{
+  display: flex;
+  justify-content:space-around;
+  border-bottom: 1px solid;
+  width: 259px;
+  height: 75px;
+  color: #000;
+}
+
+#date
+{
+  margin-left: -10%;
+  height: 30px;
+  font-size: 25px;
+  line-height: 22px;
+}
+
+#month
+{
+  display: flex;
+  width: 90px;
+  height: 20px;
+  border: 1px solid;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 26px;
+  margin-left: -160px;
+  font-size: 17px;
+  background-color: #000;
+  color: whitesmoke;
+}
+
+#flag img
+{
+  display: flex;
+  width: 46px;
+  height: 26px;
+  border: 2px solid #1d1e20;
+  border-radius: 5px;
+  margin-top: 13px;
+  margin-left: 90%;
+  margin-right: 0%;
+}
+
+#event-location
+{
+  display: flex;
+  align-items: start;
+  /* border: 1px solid; */
+  width: 280px;
+  height: 21px;
+  font-size: 22px;
+  font-family:'Titillium Web',sans-serif ;
+  font-weight: 700;
+  margin-top: -3px;
+}
+
+#event-location img
+{
+  width: 20px;
+  height: 20px;
+  margin-top: 9px;
+}
+
+#title-grand-prix
+{
+  /* border: 1px solid; */
+  width: 300px;
+  height: 45px;
+  margin-top: 28px;
+  margin-left: -237px;
+  line-height: 16px;
+}
+
+.tracing-picture
+{
+  display: flex;
+  width: 256px;
+  height: 100px;
+  margin-top: 5px;
+  background-image: url(https://www.formula1.com/etc/designs/fom-website/images/patterns/plus-x1.png);
+}
+
+.tracing-picture img
+{
+  width:256px ;
+  height: 100px;
+  border-radius: 10px;
+}
+/*///////////////////////////////////////////////////////////*/
+
+#tracing
+{
+  margin-left: 20%;
+  width:144px;
+  height: 108px;
+}
+
+/*///////////////////////////////////////////////////////////*/
+
+#race-filter
+{
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 1px solid; */
+  margin-top: 10%;
+  margin-left: 3%;
+  margin-bottom: 3%;
+  width: 1440px;
+  height: 144px;
+  background-color: white;
+}
+
+.result-filter
+{
+  /* border: 1px solid ; */
+  width: 479px;
+  height: 144px; 
+}
+
+#years
+{
+  display: grid;
+  /* border: 1px solid; */
+  width: 383px;
+  height: 144px;
+  margin-top: -0%;
+}
+
+.filter
+{
+  margin-left: -10%;
+  width: 383px;
+  height: 36px;
+  list-style-type: none;
+}
+
+.filter span
+{
+  display: grid;
+  /* border: 1px solid; */
+  margin-left: 2%;
+  margin-top: 1px;
+  font-family:'Titillium Web',sans-serif ;
+  font-weight: 700;
+}
+
+.filter:hover
+{
+  text-decoration:underline 1px;
+  color: #e10600;
+}
+
+#statistic-race
+{
+  display: grid;
+  border-left: 1px solid;
+  border-color: lightgrey;
+  width: 383px;
+  height: 144px;
+  margin-top: -0%;
+}
+
+#track
+{
+  display: grid;
+  border-left: 1px solid;
+  border-color: lightgrey;
+  width: 383px;
+  height: 144px;
+  margin-top: -0%;
+}
+
+#table-result
+{
+  width: 1440px;
+  height: 1290px;
+  background-color: white;
+  margin-top: -2.5%;
+  margin-left: 3%;
+  margin-bottom: 10%;
+}
+
+#table-result h2
+{
+  font-family:'Titillium Web',sans-serif ;
+  font-size: 50px;
+  font-weight: 400;
+  margin-top: -0%;
+  margin-left: 1%;
+}
+
+#table-result table
+{
+  width: 1440px;
+  height: 20px;
+  border-collapse: collapse;
+  /* background-color: white; */
+}
+
+#first-line td
+{
+  /* border: 1px solid; */
+  padding: 18px 20px 14px;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: gray;
+  font-size: 13px;
+}
+
+.line-color
+{
+  background-color: #f4f4f4;
+}
+
+td
+{
+  /* border: 1px solid; */
+  padding: 18px 20px 14px;
+  text-align: left;
+  font-weight: 500;
+  color: #4a4a4a;
+  font-size: 12px;
+}
+
+th
+{
+  padding: 18px 20px 14px;
+  text-align: left;
+  /* text-transform: uppercase; */
+  font-weight: 600;
+  color: #4a4a4a;
+  font-size: 12px;
+
+}
+
