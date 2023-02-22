@@ -621,14 +621,10 @@ font-size: 12px;
   height: auto;
 }
 
-#drivers
+#banner
 {
   display: grid;
   font-family: 'Titillium Web', sans-serif;
-}
-
-#drivers
-{
   border-top: 10px solid #f00;
   border-right: 10px solid #f00;
   border-top-right-radius: 25px;
@@ -638,7 +634,7 @@ font-size: 12px;
   margin-left: 5%;
 }
 
-#drivers h2
+#banner h2
 {
   margin-top: 2.9%;
   margin-left: 4%;
@@ -697,12 +693,23 @@ font-size: 12px;
   margin-left: -0%;
 }
 
+#team-color
+{
+  display: inline-block;
+  width: 5px;
+  height: 28px;
+  background-color: #3671C6;
+  margin-top: 18px;
+}
+
 #first-name
 {
   color: white;
   font-size: 12px;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 300;
+  margin-top: -30px;
+  margin-left: 13px;
 }
 
 #second-name
@@ -712,6 +719,8 @@ font-size: 12px;
   font-size: 20px;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 600;
+  margin-top: -20px;
+  margin-left: 13px;
 }
 
 .driver-flag
@@ -719,7 +728,7 @@ font-size: 12px;
   display:flex;
   width: 46px;
   height: 26px;
-  margin-top: -15%;
+  margin-top: -13%;
   margin-left: 6.5cm;
   border-radius: 5px;
 }
@@ -758,4 +767,254 @@ font-size: 12px;
   height: 192px;
   margin-top: -28px;
   margin-left: 30px;
+}
+
+.f1-Teams
+{
+  display: grid;
+  background-color: white;
+  height: auto;
+}
+
+#banner-2
+{
+  display: grid;
+  font-family: 'Titillium Web', sans-serif;
+  border-top: 10px solid #000;
+  border-right: 10px solid #000;
+  border-top-right-radius: 25px;
+  width: 1320px;
+  height: 70px;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+
+#banner-2 h2
+{
+  margin-top: 2.9%;
+  margin-left: 4%;
+  font-family: 'Titillium Web',serif;
+  font-size: 60px;
+  line-height: 1px;
+  font-weight: 900;
+  color: black;
+}
+
+.f1-Teams div
+{
+  width: 1340px;
+  height: 1800px;
+  margin-top: 8%;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  display: flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+}
+
+.card-teams
+{
+  width: 640px;
+  height: 295.58px;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-top-right-radius: 10px;
+  border-bottom: none;
+  border-left: none;
+  margin-top: 10px;
+}
+
+.card-teams:hover
+{
+  border-color: currentColor;
+  margin-top: -20px;
+  padding-top: 20px;
+  transition: .1s all ease;
+}
+
+#team-itens
+{
+  display: flex;
+  color: #000;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  border-bottom: 2px solid black;
+  width: 628px ;
+  height: 60px;
+  margin-left: 2px;
+  margin-top: 4px;
+}
+
+#team-name
+{
+  font-family: 'Titillium Web',serif;
+  font-size: 27px;
+  font-weight: 900;
+  margin-left: -10cm;
+  margin-top: 10px;
+}
+
+#team-logo
+{
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+}
+
+#driver-itens
+{
+  display: flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  width: 635px ;
+  height: 60px;
+  margin-left: 1px;
+  margin-top: 4px;
+}
+
+.driver-1
+{
+  display: flex;
+  color: #000;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-top: none;
+  border-left: none;
+  border-bottom-right-radius: 5px;
+  width: 261px;
+  height: 48.8px;
+}
+
+.driver-2
+{
+  display: flex;
+  color: #000;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-top: none;
+  border-left: none;
+  border-bottom-right-radius: 5px;
+  width: 261px;
+  height: 48.8px;
+  margin-top: -10.5%;
+  margin-left: 52%;
+}
+
+#name
+{
+  font-family: 'Titillium Web',serif;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+#second
+{
+  font-family: 'Titillium Web',serif;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+#pilot
+{
+  display: flex;
+  width: 48px;
+  height: 48px;
+  margin-left: 3.5cm;
+  margin-right: -10px;
+  margin-top: 10px;
+}
+
+.background-car
+{
+  width: 628.4px;
+  height: 154.38px;
+  margin-top: 10px;
+  background-image: url(https://www.formula1.com/etc/designs/fom-website/images/patterns/plus-x1.png);
+  border-radius: 10px;
+}
+
+#picture-car
+{
+  width: 502.71px;
+  height: 148.98px;
+  margin-left: 2cm;
+}
+
+footer
+{
+  display: grid;
+  background-color: #15151e;
+  border: 1px solid white;
+  height: 380px;
+}
+
+#partners
+{
+  border-bottom: 1px solid #38383f;
+  width: 1320px;
+  height: 90px;
+  margin-left: 3cm;
+  margin-top: 3%;
+}
+
+#partners ul
+{
+  display: flex;
+  justify-content: center;
+}
+
+#partners img
+{
+  width: 125px;
+  height: 70.25px;
+  margin-left: -1%;
+  margin-top: -20px;
+}
+
+#partners-2
+{
+  border-bottom: 1px solid #38383f;
+  width: 1320px;
+  height: 90px;
+  margin-left: 3cm;
+  margin-top: 1%;
+}
+
+#partners-2 ul
+{
+  display: flex;
+  justify-content: center;
+}
+
+#partners-2 img
+{
+  width: 90px;
+  height: 50px;
+  margin-left: -1%;
+  margin-top: -15px;
+}
+
+#partners-3
+{
+  border-bottom: 1px solid #38383f;
+  width: 1320px;
+  height: 90px;
+  margin-left: 3cm;
+  margin-top: 1%;
+  margin-bottom: 10px;
+}
+
+#partners-3 ul
+{
+  display: flex;
+  justify-content: center;
+}
+
+#partners-3 img
+{
+  width: 90px;
+  height: 50px;
+  margin-left: -1%;
+  margin-top: -20px;
 }
